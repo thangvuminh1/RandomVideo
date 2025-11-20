@@ -1,10 +1,10 @@
 {
   "ACTIVATION_CODES": {
     "RVM-2024-ABCD-1234": {
-      "days": 365,
+      "days": 3000,
       "type": "premium",
       "used": false,
-      "created": "2024-01-01"
+      "created": "2025-01-01"
     },
     "RVM-2024-EFGH-5678": {
       "days": 365,
