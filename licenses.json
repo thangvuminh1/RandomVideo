@@ -1,9 +1,76 @@
 {
-  "hardware_id": "HW969A0B6FC81A",
-  "created": "2025-11-20",
-  "expires": "2025-11-27",
-  "type": "trial",
-  "version": "1.0",
-  "days": 7,
-  "signature": "7230DADCF28F8138"
+  "version": "2.0",
+  "description": "License database for Random Video Maker",
+  "last_updated": "2024-01-15",
+  "settings": {
+    "app_name": "Random Video Maker",
+    "app_version": "4.0.0",
+    "max_activations": 1,
+    "allow_trial": true,
+    "trial_days": 7,
+    "premium_days": 365,
+    "signature_key": "RVM4_SECRET_2024_KEY"
+  },
+  "activation_codes": {
+    "RVM-TRIAL-7DAY": {
+      "hardware_id": "AUTO_GENERATE",
+      "days": 7,
+      "type": "trial",
+      "status": "available",
+      "max_uses": 1000,
+      "used_count": 0,
+      "created": "2024-01-01",
+      "note": "Free 7-day trial for new users"
+    },
+    "RVM-TRIAL-30DAY": {
+      "hardware_id": "AUTO_GENERATE", 
+      "days": 30,
+      "type": "trial",
+      "status": "available",
+      "max_uses": 100,
+      "used_count": 0,
+      "created": "2024-01-01",
+      "note": "Extended 30-day trial"
+    },
+    "RVM-PREMIUM-2024-001": {
+      "hardware_id": "HW7B57CA749B",
+      "days": 365,
+      "type": "premium",
+      "status": "used",
+      "max_uses": 1,
+      "used_count": 1,
+      "created": "2024-01-15",
+      "note": "Premium license for customer A"
+    },
+    "RVM-PREMIUM-2024-002": {
+      "hardware_id": "AUTO_GENERATE",
+      "days": 365,
+      "type": "premium", 
+      "status": "available",
+      "max_uses": 1,
+      "used_count": 0,
+      "created": "2024-01-15",
+      "note": "Available premium license"
+    }
+  },
+  "license_templates": {
+    "trial_7d": {
+      "days": 7,
+      "type": "trial",
+      "features": ["full_access", "watermark"],
+      "note": "7-day trial with watermark"
+    },
+    "trial_30d": {
+      "days": 30, 
+      "type": "trial",
+      "features": ["full_access", "no_watermark"],
+      "note": "30-day full trial"
+    },
+    "premium_1y": {
+      "days": 365,
+      "type": "premium", 
+      "features": ["full_access", "priority_support", "updates"],
+      "note": "1-year premium license"
+    }
+  }
 }
