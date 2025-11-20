@@ -1,36 +1,30 @@
-{
-    "version": 1,
-    "last_update": "2025-01-01",
+[
+  {
+    "license_key": "DEMO-KEY-123",
+    "owner": "demo_user@example.com",
+    "plan": "pro",
+    "max_devices": 1,
+    "max_sessions": 1,
+    "expire_at": "2026-01-01T00:00:00Z",
+    "created_at": "2025-11-20T00:00:00Z",
+    "status": "active",
+    "allowed_hwids": [
+      "HWID_HASH_1",
+      "HWID_HASH_2"
+    ],
+    "note": "License demo cho user A"
+  },
 
-    "licenses": {
-        "HWID-ABC-123-XYZ": {
-            "key": "A1B2-C3D4-E5F6-G7H8",
-            "name": "Nguyen Van A",
-            "product": "RandomVideoTool",
-            "created": "2025-01-01",
-            "expire": "2026-01-01",
-            "max_devices": 1,
-            "status": "active"
-        },
-
-        "8845F1C0B33A77D1F9E2A1FFCC004499": {
-            "key": "99AA-77BB-55CC-33DD",
-            "name": "Thang",
-            "product": "YouTubeDownloader",
-            "created": "2025-02-12",
-            "expire": "2026-02-12",
-            "max_devices": 3,
-            "status": "active"
-        },
-
-        "TEST-HARDWARE-ID-0001": {
-            "key": "FFFF-FFFF-FFFF-FFFF",
-            "name": "TrialUser",
-            "product": "AnyProduct",
-            "created": "2025-03-01",
-            "expire": "2025-03-05",
-            "max_devices": 1,
-            "status": "expired"
-        }
-    }
-}
+  {
+    "license_key": "VIP-USER-999",
+    "owner": "vip_user@gmail.com",
+    "plan": "lifetime",
+    "max_devices": 3,
+    "max_sessions": 2,
+    "expire_at": "2099-12-31T23:59:59Z",
+    "created_at": "2025-01-01T00:00:00Z",
+    "status": "active",
+    "allowed_hwids": [],
+    "note": "Lifetime, không giới hạn HWID"
+  }
+]
