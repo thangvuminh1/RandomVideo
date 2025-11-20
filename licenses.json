@@ -1,39 +1,9 @@
 {
-  "ACTIVATION_CODES": {
-    "RVM-2024-ABCD-1234": {
-      "days": 3000,
-      "type": "premium",
-      "used": false,
-      "created": "2025-01-01"
-    },
-    "HW969A0B6FC81A": {
-      "days": 3000,
-      "type": "premium",
-      "used": true,
-      "created": "2025-01-01"
-    },
-    "RVM-2024-EFGH-5678": {
-      "days": 365,
-      "type": "premium", 
-      "used": false,
-      "created": "2024-01-01"
-    },
-    "RVM-TRIAL-30DAY": {
-      "days": 30,
-      "type": "trial",
-      "used": false,
-      "created": "2024-01-01"
-    },
-    "RVM-TRIAL-7DAY": {
-      "days": 7,
-      "type": "trial",
-      "used": false,
-      "created": "2024-01-01"
-    }
-  },
-  "SETTINGS": {
-    "version": "1.0",
-    "max_activations": 1,
-    "allow_trial": true
-  }
+  "hardware_id": "HW969A0B6FC81A",
+  "created": "2025-11-20",
+  "expires": "2025-11-27",
+  "type": "trial",
+  "version": "1.0",
+  "days": 7,
+  "signature": "7230DADCF28F8138"
 }
